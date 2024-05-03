@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: #121511;
+}
+
+.filter {
+    backdrop-filter: blur(20px); /* Adjust the blur amount as needed */
+}
