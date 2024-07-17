@@ -1,3 +1,5 @@
+import React from 'react';
+import {Link } from 'react-router-dom';
 function Header() {
     return (<>
         <header
@@ -15,20 +17,20 @@ function Header() {
                 <div
                     className="p-4 flex flex-row gap-2.5 items-center justify-center"
                 >
-                    <a href="#"
+                    <Link to="/"
                         className="text-[#f3f5f1] text-left text-sm md:text-base hover:underline hover:text-green-light hover:underline-offset-4"
                     >
                         Home
-                    </a>
+                    </Link>
                 </div>
                 <div
                     className="p-4 flex flex-row gap-2.5 items-center justify-center"
                 >
-                    <a href="#"
+                    <Link to="/events"
                         className="text-[#f3f5f1] text-left text-sm md:text-base hover:underline hover:text-green-light hover:underline-offset-4"
                     >
                         Events
-                    </a>
+                    </Link>
                 </div>
                 <div
                     className="p-4 flex flex-row gap-2.5 items-center justify-center"
