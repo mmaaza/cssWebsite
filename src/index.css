@@ -11,5 +11,13 @@ body{
 }
 
 .filter {
-    backdrop-filter: blur(20px); /* Adjust the blur amount as needed */
+    backdrop-filter: blur(20px);
+}
+
+.truncate-multiline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
 }
